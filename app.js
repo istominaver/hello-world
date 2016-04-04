@@ -1,4 +1,4 @@
-var express = require('express');
+/*var express = require('express');
 var app = express();
 var http = require('http').Server(app);
 var io = require('socket.io')(http);
@@ -14,9 +14,8 @@ io.on('connection', function(socket){
 });
 http.listen(port, function(){
  console.log('listening on ' + port);
-});
+});*/
 
-/*
 var restify = require('restify');
 var builder = require('botbuilder');
 
@@ -34,7 +33,7 @@ server.listen(8080, function () {
    console.log('%s listening to %s', server.name, server.url); 
 });
 
-var bot = new builder.TextBot();
+/*var bot = new builder.TextBot();
 bot.add('/', [
     function (session) {
         builder.Prompts.text(session, "Hello... What's your name?");
