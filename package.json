@@ -1,7 +1,7 @@
 {
   "name": "my_bot",
   "version": "1.0.0",
-  "description": "",
+  "description": "test",
   "main": "app.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -12,6 +12,16 @@
     "botbuilder": "^0.6.5",
     "botkit": "0.0.15",
     "express": "^4.13.4",
-    "restify": "^4.0.4"
-  }
+    "restify": "^4.0.4",
+    "socket.io": "^1.4.5"
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/istominaver/hello-world.git"
+  },
+  "bugs": {
+    "url": "https://github.com/istominaver/hello-world/issues"
+  },
+  "homepage": "https://github.com/istominaver/hello-world#readme"
 }
